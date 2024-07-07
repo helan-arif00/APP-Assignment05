@@ -1,0 +1,133 @@
+body{
+    background-color: rgb(3, 28, 58);
+}
+nav{
+    background-color: white;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: right;
+    padding-right: 10px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+nav a{
+    color: rgb(2, 3, 55);
+    text-decoration: none;
+    padding-top: 20px;
+    margin-right: 10px;
+    width: 80px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: cursive;
+}
+
+nav a:hover{
+    background-color: rgb(2, 3, 55);
+    color: white;
+    transition: 1s;
+}
+.product-container{
+    width: 780px;
+    padding: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(165, 201, 243);
+}
+.row{
+    display: flex;
+    gap: 15px;
+}
+.product-image{
+    width: 400px;
+}
+.product-image img{
+    width: 100%;
+    object-fit: fill;
+    background-color: white;
+}
+.product-details{
+    width: 400px;
+    
+}
+.promo-code{
+    width: 300px;
+    background-color: rgb(23, 108, 178);
+    color: white;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+    margin-top: 10px;
+    border: 2px solid rgb(2, 27, 79);
+}
+.related-product{
+    width: 180px;
+    background-color: rgb(13, 88, 129);
+    padding: 15px;
+    border: 2px solid black;
+}
+.related-product img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.related-product-name{
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color:  white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.main-image{
+    width: 100%;
+    object-fit: fill;
+    position: relative;
+}
+.main-image img{
+    width: 100%;
+}
+.main-caption{
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    left: 0;
+    visibility: hidden;
+    width: 200px;
+    background-color: rgb(53, 28, 2);
+    border: 3px solid black;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+.main-image:hover .main-caption{
+    visibility: visible;
+}
+.team-memebers img{
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.team-memebers p{
+    text-align: center;
+}
+footer{
+    width: 100%;
+    background-color: white;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+
+
+
